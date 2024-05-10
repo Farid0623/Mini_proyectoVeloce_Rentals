@@ -13,7 +13,7 @@ import java.util.Enumeration;
 @WebServlet ("/Test")
 public class CabecerasHttpRequestServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         resp.setContentType("text/html;charset=UTF-8");
         String metodoHttp = req.getMethod();
         String requestUri = req.getRequestURI();
