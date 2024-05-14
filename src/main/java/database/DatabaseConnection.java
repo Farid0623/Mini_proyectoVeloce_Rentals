@@ -29,10 +29,10 @@ public class DatabaseConnection {
     }
 
     private static void initialize() {
-        try (InputStream input = DatabaseConnection.class.getClassLoader().getResourceAsStream("database.veloce")) {
+        try (InputStream input = DatabaseConnection.class.getClassLoader().getResourceAsStream("velocerantals")) {
             Properties prop = new Properties();
             if (input == null) {
-                throw new RuntimeException("Unable to find database.veloce");
+                throw new RuntimeException("Unable to find velocerantals");
             }
             prop.load(input);
             url = prop.getProperty("db.url");
