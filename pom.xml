@@ -7,7 +7,7 @@
     <groupId>cue.edu.co</groupId>
     <artifactId>veloce-rentals</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>veloce-rentals</name>
+    <name>webapp-headers</name>
     <packaging>war</packaging>
 
     <properties>
@@ -55,6 +55,12 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

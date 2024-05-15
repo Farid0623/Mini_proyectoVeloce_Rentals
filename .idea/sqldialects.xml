@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/src/main/java/Service/impl/VehicleJDBCImpl.java" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/src/main/resources/databaseveloce.sql" dialect="MySQL" />
-  </component>
-</project>
